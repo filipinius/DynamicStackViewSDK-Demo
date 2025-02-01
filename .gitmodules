@@ -1,0 +1,3 @@
+[submodule "DynamicStackViewSDK"]
+	path = DynamicStackViewSDK
+	url = https://github.com/filipinius/DynamicStackViewSDK.git
