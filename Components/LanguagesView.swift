@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import DynamicStackViewSDK
+import DynamicStackView
 
 struct LanguagesView: View {
     private let languages: [Language]
@@ -25,6 +25,7 @@ struct LanguagesView: View {
             DynamicStackView(
                 data: languages,
                 spacing: 10,
+                fillWidth: false,
                 content: { language in
                     languageLabel(language)
                 }
